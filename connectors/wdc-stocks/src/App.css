@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border-radius: 20px;
+  min-width:300px;
+  background: #46555D;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.ReactTags__tagInputField{
+  padding:10px 15px;
+  margin:15px;
+}
+.ReactTags__remove{
+  padding:0px 0px 0px 10px;
+
+
+  border-radius:100%;
+}
+.ReactTags__tag{
+  background:#586774;
+  position: relative;
+  padding:5px 10px;
+  margin:0px 8px;
+  color:#ffffff;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius:10px;
+}
+.ReactTags__tagInputField{
+  background-color: #23292E;
+  outline: none;
+  border:none;
+  border-radius:5px;
+}
+.label{
+  color:#ffffff;
+  font-weight: bold;
+  margin:15px 0px 5px 0px;
+}
+.ReactTags__selected{
+  max-width:300px;
+  line-height: 40px;
+  margin:auto;
+}
