@@ -9,17 +9,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Tableau Web Data Connectors',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://advanced-tableau-course.github.io', // Your website URL
+  baseUrl: '/Tableau-Web-Data-Connectors/',
+  projectName: 'Tableau-Web-Data-Connectors',
+  organizationName: 'advanced-tableau-course',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -61,23 +62,26 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
+            docId: 'outline/1. Course Overview/1.1 Overview',
+            position: 'right',
+            label: 'Course Outline',
+          },
+          {
+            type: 'doc',
+            docId: 'documentation/intro',
+            position: 'right',
+            label: 'Documentation',
           },
         
         ],
       },
       footer: {
-        style: 'dark',
+        //style: 'dark',
         links: [
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+          
             ],
           },
           {
@@ -100,10 +104,7 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+             
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
