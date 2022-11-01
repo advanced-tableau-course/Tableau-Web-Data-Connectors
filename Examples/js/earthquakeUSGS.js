@@ -49,8 +49,9 @@
             doneCallback();
         });
     };
+    setTimeout(()=>
 
-    tableau.registerConnector(myConnector);
+    tableau.registerConnector(myConnector),1000);
 
     // Create event listeners for when the user submits the form
     $(document).ready(function() {
